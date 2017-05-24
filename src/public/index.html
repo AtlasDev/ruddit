@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Ruddit - The frontpage of the interwebs</title>
+		<script src="./css/index.css" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="container">
+			<h3>Ruddit - The frontpage of the interwebs</h3>
+			<ul class="demo-list-three mdl-list" id="mainList"></ul>
+		</div>
+		<button id="addPost" class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored addpostbutton">
+		  <i class="material-icons">add</i>
+		</button>
+		<dialog class="mdl-dialog" id="addPostDialog">
+	    <h4 class="mdl-dialog__title">Post new link.</h4>
+			<form id="postForm">
+		    <div class="mdl-dialog__content">
+					  <div class="mdl-textfield mdl-js-textfield">
+					    <input class="mdl-textfield__input" type="text" id="postTitle" required></input>
+					    <label class="mdl-textfield__label" for="postTitle">Title</label>
+					  </div>
+					  <div class="mdl-textfield mdl-js-textfield">
+					    <input class="mdl-textfield__input" type="text" id="postCreator" required></input>
+					    <label class="mdl-textfield__label" for="postCreator">Creator</label>
+					  </div>
+					  <div class="mdl-textfield mdl-js-textfield">
+					    <input class="mdl-textfield__input" type="text" id="postLink" required></input>
+					    <label class="mdl-textfield__label" for="postLink">Link</label>
+					  </div>
+		    </div>
+		    <div class="mdl-dialog__actions">
+		      <button type="submit" class="mdl-button submit">Post</button>
+		      <button type="button" class="mdl-button close">Cancel</button>
+		    </div>
+			</form>
+	  </dialog>
+		<link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+		<script src="./js/index.js" charset="utf-8"></script>
+	</body>
+</html>

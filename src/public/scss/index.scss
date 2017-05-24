@@ -1,0 +1,19 @@
+@import '~material-design-lite/src/material-design-lite';
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  user-select: none;
+}
+
+.container {
+  height: 100;
+  width: 80%;
+}
+
+.addpostbutton {
+  bottom: 60px;
+  position: fixed;
+  right: 60px;
+}
